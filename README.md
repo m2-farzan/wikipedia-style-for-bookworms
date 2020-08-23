@@ -1,3 +1,6 @@
+# Preview
+![Preview Image](https://raw.githubusercontent.com/m2-farzan/wikipedia-style-for-bookworms/master/preview.jpg)
+
 # Introduction
 I'm not a web designer, nor a typography expert. So most of what follows are mostly my personal opinions. I'm a bookworm. I spend a fair amount of time reading books and e-books but when it comes to Wikipedia, I've caught myself just skipping through the lines, never reading anything carefully.
 
