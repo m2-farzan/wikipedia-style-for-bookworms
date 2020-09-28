@@ -17,29 +17,11 @@ Fortunately, Wikipedia can be totally customized after logging in. So if you're 
 - Start creating/editing the page
 - Enter the following CSS into the page:
     ```
-    /* rest */
-    @font-face {
-      font-family: 'medium-content-serif-font';
-      font-weight: 700;
-      font-style: normal;
-      src: url('https://glyph.medium.com/font/f50d520/3k-4f_4h-6bt_6bv-6c3_6c5-6c7_6ca-6cb_6ce-6ch_6cj-6cl_6cn-nvnj/charter-700-normal.woff') format('woff');
-      unicode-range: U+80-9F,U+A1-2009,U+200B-2013,U+2015-2017,U+201A-201B,U+201E-2021,U+2023-2025,U+2027-10FFFF;
-    }
-
-    /* rest */
-    @font-face {
-      font-family: 'medium-content-sans-serif-font';
-      font-weight: 400;
-      font-style: normal;
-      src: url('https://glyph.medium.com/font/d8659c9/3k-4f_4h-6bt_6bv-6c3_6c5-6c7_6ca-6cb_6ce-6ch_6cj-6cl_6cn-nvnj/marat-sans-400-normal.woff') format('woff');
-      unicode-range: U+80-9F,U+A1-2009,U+200B-2013,U+2015-2017,U+201A-201B,U+201E-2021,U+2023-2025,U+2027-10FFFF;
-    }
-
     body {
-        font-family: "medium-content-serif-font";
-        font-size: 21px;
+        font-family: Segoe UI;
         font-style: normal;
-        letter-spacing: -0.003em;
+        font-size: 20px;
+        letter-spacing: -0.007em;
         line-height: 32px;
     }
     .header-container.header-chrome {
@@ -47,14 +29,19 @@ Fortunately, Wikipedia can be totally customized after logging in. So if you're 
         border: 0 !important;
         box-shadow: inset 0 -1px 3px rgba(0, 0, 0, 0.08) !important;
     }
-    a:link {
+    #user-notifications {
+        color: transparent;
+    }
+    ul > li > a {
         color: #000000;
+    font-style: normal !important;
     }
     p > a:link {
-        color: #000000;
-        font-family: 'medium-content-serif-font';
-        font-weight: 700;
+        font-family: Segoe UI Semibold;
         font-style: normal !important;
+    }
+    a:link {
+        color: #000000;
     }
     a:visited {
         color: #000000;
@@ -67,7 +54,7 @@ Fortunately, Wikipedia can be totally customized after logging in. So if you're 
         color: #000000;
     }
     .content {
-        max-width: 47em;
+        max-width: 50em;
     }
     .header-container.header-chrome {
         background-color: #e9eaa4;
@@ -89,6 +76,7 @@ Fortunately, Wikipedia can be totally customized after logging in. So if you're 
     li.user-show {
         display: list-item !important;
     }
+
     ```
 - Save the page
 - Reload (Hold *Shift* and click browser reload button. This will load the new style.)
