@@ -17,26 +17,66 @@ Fortunately, Wikipedia can be totally customized after logging in. So if you're 
 - Start creating/editing the page
 - Enter the following CSS into the page:
     ```
-    /* Use a serif font. Make text slightly larger. */
     body {
-        font-family: serif;
-        font-size: larger;
+        font-family: Segoe UI;
+        font-style: normal;
+        font-size: 20px;
+        letter-spacing: -0.007em;
+        line-height: 32px;
     }
-
-    /* Links will appear in black italic style. */
+    .header-container.header-chrome {
+        background-color: #eaecf0 !important;
+        border: 0 !important;
+        box-shadow: inset 0 -1px 3px rgba(0, 0, 0, 0.08) !important;
+    }
+    #user-notifications {
+        color: transparent;
+    }
+    ul > li > a {
+        color: #000000;
+    font-style: normal !important;
+    }
+    p > a:link {
+        font-family: Segoe UI Semibold;
+        font-style: normal !important;
+    }
     a:link {
         color: #000000;
-        font-style: italic;
     }
-    a:visited {color: #000000}
-    a:hover {color: #000000}
-    a:active {color: #000000}
+    a:visited {
+        color: #000000;
+    }
+    a:hover {
+        color: #000000;
+    }
 
-    /* This keeps text width about 70 characters, which is recommended for readability. */
-    .content {max-width: 35em}
+    a:active {
+        color: #000000;
+    }
+    .content {
+        max-width: 50em;
+    }
+    .header-container.header-chrome {
+        background-color: #e9eaa4;
+    }
+    .anonymous-show {
+        display: none !important;
+    }
+    div.user-show,
+    p.user-show {
+        display: block !important;
+    }
+    span.user-show,
+    small.user-show {
+        display: inline !important;
+    }
+    table.user-show {
+        display: table !important;
+    }
+    li.user-show {
+        display: list-item !important;
+    }
 
-    /* Bring some color to life */
-    .header-container.header-chrome {background-color: #e9eaa4}
     ```
 - Save the page
 - Reload (Hold *Shift* and click browser reload button. This will load the new style.)
