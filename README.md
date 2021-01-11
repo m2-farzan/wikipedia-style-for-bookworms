@@ -25,12 +25,12 @@ Fortunately, Wikipedia can be totally customized after logging in. So if you're 
 
     /* Links will appear in black italic style. */
     a:link {
-        color: #000000;
+        color: #202122;
         font-style: italic;
     }
-    a:visited {color: #000000}
-    a:hover {color: #000000}
-    a:active {color: #000000}
+    a:visited {color: #202122}
+    a:hover {color: #202122}
+    a:active {color: #202122}
 
     /* This keeps text width about 70 characters, which is recommended for readability. */
     .content {max-width: 35em}
