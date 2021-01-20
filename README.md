@@ -1,3 +1,5 @@
+*See Farsi version here: https://virgool.io/@mostafa.farzan/pkephuycb06n*
+
 # Preview
 ![Preview Image](https://raw.githubusercontent.com/m2-farzan/wikipedia-style-for-bookworms/master/preview.jpg)
 
